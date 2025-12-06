@@ -4,8 +4,8 @@
   <ShortName>Physical AI &amp; Humanoid Robotics</ShortName>
   <Description>Search Physical AI &amp; Humanoid Robotics</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://hajikhansahito110786.github.io/physicalAIbookas/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://hajikhansahito110786.github.io/physicalAIbookas/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://hajikhansahito110786.github.io/physicalAIbookas/opensearch.xml" />
-  <moz:SearchForm>https://hajikhansahito110786.github.io/physicalAIbookas/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://hajikhansahito110786.github.io/physicalAIbook/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://hajikhansahito110786.github.io/physicalAIbook/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://hajikhansahito110786.github.io/physicalAIbook/opensearch.xml" />
+  <moz:SearchForm>https://hajikhansahito110786.github.io/physicalAIbook/</moz:SearchForm>
 </OpenSearchDescription>
