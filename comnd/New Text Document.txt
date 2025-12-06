@@ -1,0 +1,27 @@
+cd D:\aa-w\deepseek
+git init
+
+git remote add origin https://github.com/hajikhansahito110786/deepaibook.git
+
+git add .
+
+# Push to main branch
+git branch -M main
+git push -u origin main
+
+# Add exception for this directory
+git config --global --add safe.directory D:/aa-w/deepseek
+
+# Verify it's added
+git config --global --get-all safe.directory
+
+# Now add remote again
+git remote add origin https://github.com/hajikhansahito110786/deepaibook.git
+
+# Check remote URL
+git remote -v
+
+# Check status
+git status
+
+git pull origin main --allow-unrelated-histories
