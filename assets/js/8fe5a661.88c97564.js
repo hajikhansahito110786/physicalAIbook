@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktextbook_docusaurus=globalThis.webpackChunktextbook_docusaurus||[]).push([[6017],{1757:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/physicalAIbookas/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
