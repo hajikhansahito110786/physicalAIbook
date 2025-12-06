@@ -25,3 +25,46 @@ git remote -v
 git status
 
 git pull origin main --allow-unrelated-histories
+
+git add .
+
+git branch -M main
+git push -u origin main
+
+npm install gh-pages --save-dev
+
+@echo off
+echo =================================
+echo    Deploying to GitHub Pages
+echo =================================
+
+echo 1. Checking Git status...
+git status
+
+echo.
+echo 2. Adding all files...
+git add .
+
+echo.
+echo 3. Committing changes...
+git commit -m "Deploy website update - %date% %time%"
+
+echo.
+echo 4. Pushing to GitHub...
+git push origin main
+
+echo.
+echo 5. Building and deploying to GitHub Pages...
+npm run deploy:gh-pages
+
+echo.
+echo =================================
+echo    DEPLOYMENT COMPLETE!
+echo    
+echo    Site: https://hajikhansahito110786.github.io/deepaibook/
+echo    Repo: https://github.com/hajikhansahito110786/deepaibook
+echo =================================
+echo.
+pause
+
+git add . && git commit -m "Deploy" && git push origin main && npm run deploy:gh-pages
